@@ -1,0 +1,49 @@
+{
+  "students": ["lokesh", "prince", "sunny", "sandy"],
+
+  "slots": [
+    {"start": "13:00", "end": "14:00"},
+    {"start": "14:00", "end": "15:00"},
+    {"start": "15:00", "end": "16:00"},
+    {"start": "16:00", "end": "17:00"}
+  ],
+
+  "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+
+  "slot_mapping": {
+    "Monday": {
+      "13:00-14:00": {"lokesh": "CC", "prince": "CC", "sunny": "NN", "sandy": "NN"},
+      "14:00-15:00": {"lokesh": "OT", "prince": "OT", "sunny": "OT", "sandy": "OT"},
+      "15:00-16:00": {"lokesh": "SE", "prince": "SE", "sunny": "SE", "sandy": "SE"},
+      "16:00-17:00": {"lokesh": "DAA", "prince": "DAA", "sunny": "DAA", "sandy": "DAA"}
+    },
+
+    "Tuesday": {
+      "13:00-14:00": {"lokesh": "CC", "prince": "CC", "sunny": "NN", "sandy": "NN"},
+      "14:00-15:00": {"lokesh": "OT", "prince": "OT", "sunny": "OT", "sandy": "OT"},
+      "15:00-16:00": {"lokesh": "SE", "prince": "SE", "sunny": "SE", "sandy": "SE"},
+      "16:00-17:00": {"lokesh": "PR", "prince": "PR", "sunny": "IP", "sandy": "IP"}
+    },
+
+    "Wednesday": {
+      "13:00-14:00": {"lokesh": "CC", "prince": "CC", "sunny": "NN", "sandy": "NN"},
+      "14:00-15:00": {"lokesh": "DAA", "prince": "DAA", "sunny": "DAA", "sandy": "DAA"},
+      "15:00-16:00": {"lokesh": "OT", "prince": "OT", "sunny": "OT", "sandy": "OT"},
+      "16:00-17:00": {"lokesh": "PR", "prince": "PR", "sunny": "IP", "sandy": "IP"}
+    },
+
+    "Thursday": {
+      "13:00-14:00": {"lokesh": "CC", "prince": "CC", "sunny": "NN", "sandy": "NN"},
+      "14:00-15:00": {"lokesh": "DAA", "prince": "DAA", "sunny": "DAA", "sandy": "DAA"},
+      "15:00-16:00": {"lokesh": "OT", "prince": "OT", "sunny": "OT", "sandy": "OT"},
+      "16:00-17:00": {"lokesh": "PR", "prince": "PR", "sunny": "IP", "sandy": "IP"}
+    },
+
+    "Friday": {
+      "13:00-14:00": {"lokesh": "PR", "prince": "PR", "sunny": "IP", "sandy": "IP"},
+      "14:00-15:00": {"lokesh": "DAA", "prince": "DAA", "sunny": "DAA", "sandy": "DAA"},
+      "15:00-16:00": {"lokesh": "SE", "prince": "SE", "sunny": "SE", "sandy": "SE"},
+      "16:00-17:00": {"lokesh": "LAB", "prince": "LAB", "sunny": "LAB", "sandy": "LAB"}
+    }
+  }
+}
